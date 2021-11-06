@@ -1,0 +1,13 @@
+/* header-style */
+.header.container {
+  background-color: $color-header-card;
+}
+
+.header {
+  border-bottom: 1px solid $color-bottom-line;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}

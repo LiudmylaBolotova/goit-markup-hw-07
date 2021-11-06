@@ -1,0 +1,60 @@
+/* textarea */
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 96px;
+  padding-top: 12px;
+  padding-left: 16px;
+
+  border: 1px solid $color-form;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+
+    color: $color-textarea-text;
+  }
+}
+
+.textarea__txt {
+  outline: none;
+  transition: border-color 250ms $timing-fanction;
+  &:focus-within {
+    border-color: $color-blue;
+  }
+}
+
+.submit__btn {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  min-height: 50px;
+  border: none;
+
+  background-color: $color-blue;
+  box-shadow: 0px 4px 4px $color-shadow-four;
+  border-radius: 4px;
+
+  transition: box-shadow 250ms $timing-fanction,
+    background-color 250ms $timing-fanction;
+
+  &:hover,
+  :focus {
+    background: $color-accent-hover;
+    box-shadow: 0px 4px 4px $color-shadow-four;
+    border-radius: 4px;
+  }
+}
+
+.submit__span {
+  font-weight: $font-bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $color-header-card;
+}

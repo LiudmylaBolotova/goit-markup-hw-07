@@ -1,0 +1,50 @@
+/* invitation */
+.invitation__title {
+  display: block;
+  font-weight: $font-bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: $color-header-card;
+}
+
+.invitation {
+  margin-left: 70px;
+}
+
+.action {
+  display: flex;
+}
+
+.action__item {
+  display: flex;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.action__link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $color-modal-two;
+
+  transition: background-color 250ms $timing-fanction;
+  &:hover,
+  &:focus {
+    background-color: $color-blue;
+  }
+}
+
+.action__icon {
+  display: inline-block;
+}
