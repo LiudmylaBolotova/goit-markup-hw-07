@@ -2,13 +2,6 @@
 .navigation-list,
 .navigation-auth {
   display: flex;
-  align-items: center;
-  align-items: baseline;
-}
-
-.navigation-list__item .navigation-list__link {
-  display: flex;
-  align-items: center;
   align-items: baseline;
 }
 
@@ -31,9 +24,6 @@
 }
 
 .navigation-list__link {
-  display: flex;
-  align-items: center;
-
   transition: color 250ms $timing-fanction, fill 250ms $timing-fanction;
 }
 

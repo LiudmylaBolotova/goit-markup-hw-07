@@ -35,9 +35,7 @@
 }
 
 .benefits__excellence {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centered();
   height: 120px;
   background-color: $color-about-icon;
   border-radius: 4px;

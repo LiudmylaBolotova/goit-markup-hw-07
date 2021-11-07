@@ -14,9 +14,7 @@
 }
 
 .customers__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centered();
   width: 100%;
   height: 100%;
   border: 1px solid $color-icon;

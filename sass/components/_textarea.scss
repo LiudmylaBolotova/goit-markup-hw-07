@@ -28,10 +28,8 @@
 }
 
 .submit__btn {
-  display: flex;
+  @include centered();
   margin: auto;
-  justify-content: center;
-  align-items: center;
   min-width: 200px;
   min-height: 50px;
   border: none;

@@ -1,9 +1,4 @@
 /* our teame */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .signature {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -68,10 +63,8 @@
 
   transition: background-color 250ms $timing-fanction,
     fill 250ms $timing-fanction;
-}
 
-.card__link {
-  &:hover,
+     &:hover,
   &:focus {
     background-color: $color-blue;
     fill: $color-header-card;
