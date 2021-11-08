@@ -1,9 +1,7 @@
 @import './utils/variables';
 @import './utils/global-utils';
 @import './utils/mixins';
-@import './components/body';
 @import './components/header';
-@import './components/logo';
 @import './components/nav';
 @import './components/hero';
 @import './components/benefits';
@@ -11,13 +9,9 @@
 @import './components/our-teame';
 @import './components/clients';
 @import './components/footer';
-@import './components/footer-logo';
 @import './components/invitation';
-@import './components/subscription';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/form';
-@import './components/textarea';
-@import './components/checkbox';
 @import './components/portfolio-filter';
 @import './components/portfolio-projects';

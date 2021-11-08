@@ -1,15 +1,20 @@
 /* our teame */
-.signature {
+
+.teame {
+  background-color: $color-team-card;
+}
+
+.teame__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.teame {
+.teame__list {
   display: flex;
   padding-right: 0;
 }
 
-.teame__img {
+.teame__item {
   flex-basis: calc((100% - 90px) / 4);
   display: block;
   width: 270px;
@@ -27,10 +32,6 @@
   &:not(:last-child) {
     margin-right: 10px;
   }
-}
-
-.section--background {
-  background-color: $color-team-card;
 }
 
 .teame__name {
@@ -64,7 +65,7 @@
   transition: background-color 250ms $timing-fanction,
     fill 250ms $timing-fanction;
 
-     &:hover,
+  &:hover,
   &:focus {
     background-color: $color-blue;
     fill: $color-header-card;

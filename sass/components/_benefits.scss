@@ -1,9 +1,9 @@
 /* benefits */
-.advantage {
+.benefits {
   padding-top: 94px;
 }
 
-.benefits {
+.benefits__list {
   display: flex;
   padding: 0;
 }
@@ -20,7 +20,7 @@
   text-align: left;
 }
 
-.advantage__title {
+.benefits__title {
   font-weight: $font-bold;
   font-size: $font-size-min;
   line-height: 1.14;
@@ -28,7 +28,7 @@
   margin-bottom: 10px;
 }
 
-.advantage__text {
+.benefits__text {
   color: $color-text;
   font-size: $font-size-min;
   line-height: 1.71;
